@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Formulário
+            </h1>
+        </header>
+    </div>
+    <div class="container">
+        <section>
+            <form id="form">
+                <label for="name">Nome Completo:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000">
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+                <label for="endereco">Endereço Completo:</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço">
+                <label for="cep">CEP:</label>
+                <input type="text" name="cep" id="cep" placeholder="00000-000">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
